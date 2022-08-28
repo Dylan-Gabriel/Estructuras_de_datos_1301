@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//LA COMPLEJIDAD DE ESTE PROGRAMA ES DE 0(n)
+
 int fact (int num){
 	if(num <1){
 		return 0;
