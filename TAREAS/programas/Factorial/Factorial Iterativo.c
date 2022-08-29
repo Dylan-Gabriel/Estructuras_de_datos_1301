@@ -2,12 +2,12 @@
 
 int main(int argc, char *argv[]){
 	
-	int num=0, resultado=1, i=0;
+	int num=0, resultado=1, n=0;
 	
 	printf("\n\t\tEscribe un numero entero cualquiera: ");
 	scanf("%d", &num);
 	
-	for(i=1; i<=num; i++){
+	for(n=1; n<=num; n++){
 		resultado= resultado*i;
 	}
 	
@@ -17,3 +17,5 @@ int main(int argc, char *argv[]){
 	system("pause");
 	return 0;
 }
+
+//LA COMPLEJIDAD ES DE 0(2n-1)
