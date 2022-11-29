@@ -4,7 +4,7 @@
 int main(){
     int num;
     int n;
-	int i;
+    int i;
     int *k=calloc(10, sizeof(int));;
 
     if(k==NULL){
