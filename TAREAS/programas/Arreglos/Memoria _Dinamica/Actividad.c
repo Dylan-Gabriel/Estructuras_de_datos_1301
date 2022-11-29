@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main(){
     int num;
     int n, i;
@@ -19,7 +18,7 @@ int main(){
     
 	for(i = 9; i >= 0; i--){    
     
-        printf(" %d ", p[i]);
+        printf(" %d ", k[i]);
     }
 
     printf("\n\n\tIngresa tu n%cmero de cuenta: ", 163);
