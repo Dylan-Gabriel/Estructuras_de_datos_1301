@@ -6,17 +6,17 @@ int main(){
     int n, i;
     int *k = calloc(10, sizeof(int));
 
-    if(k == NULL){
+    if(k==NULL){
         return -1;
     }
     
-    for(i = 0; i < 10; i++){
-        k[i] = (i+1)*2;
+    for(i=0; i<10; i++){
+        k[i]=(i+1)*2;
     }
     
 	    printf("\n\n\tEsta es la sucesi%cn n%cmerica de pares:",162, 163 );
     
-	for(i = 9; i >= 0; i--){    
+	for(i=9; i>=0; i--){    
     
         printf(" %d ", k[i]);
     }
